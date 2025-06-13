@@ -347,6 +347,10 @@
     <header class="header">
         <nav class="nav-container">
             <a href="#" class="logo">😄 ChistEmi</a>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-section="about">Acerca De</a></li>
+            </ul>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -360,8 +364,8 @@
         <section id="home" class="section active">
             <div class="joke-container">
                 <div class="joke-text" id="jokeText">
-                    ¡Bienvenido a ChistEmis!<br>
-                    Presiona "Siguiente" para empezar con los chistes
+                    ¡Bienvenido a ChistEmi! 🎭<br>
+                    Presiona "Siguiente" para sacar una sonrisa con los chistes
                 </div>
                 <div class="joke-controls">
                     <button class="btn" id="prevBtn" onclick="previousJoke()">⬅️ Anterior</button>
@@ -373,7 +377,39 @@
             </div>
         </section>
 
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-container">
+                <div class="about-header">
+                    <h1>Acerca De</h1>
+                </div>
+                <div class="about-content">
+                    <h2>👨‍💻 Creador</h2>
+                    <p>Esta web fue creada por <strong>Emiliano Pascazi</strong></p>
 
+                    <h2>🎯 Contexto del Proyecto</h2>
+                    <p>Esta aplicación web fue desarrollada como respuesta a una solicitud específica para crear una página responsive de chistes. El objetivo era demostrar las capacidades de desarrollo web moderno, incluyendo:</p>
+                    <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                        <li>Diseño responsive</li>
+                        <li>Navegación dinámica con menú hamburguesa</li>
+                        <li>Interfaz interactiva para navegación de contenido</li>
+                        <li>Efectos visuales modernos con CSS avanzado</li>
+                    </ul>
+
+                    <h2>🛠️ Tecnologías Utilizadas</h2>
+                    <p>La web está construida con <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>JavaScript vanilla</strong>, priorizando la performance y la compatibilidad. Se utilizaron técnicas modernas como CSS Grid, Flexbox, animaciones CSS, y diseño responsive sin frameworks externos.</p>
+
+                    <h2>😄 Sobre los Chistes</h2>
+                    <p>Los chistes son simples y basicos que te sacan una sonrisa</p>
+
+                    <div class="contact-info">
+                        <h2>📞 Información de Contacto</h2>
+                        <p><strong>Desarrollado por:</strong> Emiliano Pascazi</p>
+                        <p><strong>Propósito:</strong> Demostración técnica y entretenimiento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script>
